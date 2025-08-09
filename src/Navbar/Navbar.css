@@ -1,0 +1,17 @@
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar .nav-link {
+    color: var(--accent-color);
+}
+
+.navbar .nav-link.active {
+    color: var(--accent-color);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: white
+}
