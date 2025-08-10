@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #2E3841;
     --secondary-color: #8CA7C5;
-    --accent-color: #8D8D61;
+    --accent-color: #6f6f4d;
 }
 
 html, body, #root {
@@ -9,6 +15,7 @@ html, body, #root {
 }
 
 body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url('../assets/oil-plant-bg.jpg');
     background-repeat: no-repeat;
     background-size: 100vw;

@@ -44,7 +44,7 @@ function Navbar() {
                   }`}
                   aria-current="page"
                 >
-                  {elem.label}
+                  <p>{elem.label}</p>
                 </Link>
               </li>
             ))}
@@ -59,7 +59,7 @@ function Navbar() {
                   }`}
                   aria-current="page"
                 >
-                  {elem.label}
+                  <p>{elem.label}</p>
                 </Link>
               </li>
             ))}
