@@ -8,6 +8,7 @@
     --primary-color: #2E3841;
     --secondary-color: #8CA7C5;
     --accent-color: #6f6f4d;
+    --transparent-color: rgba(0, 0, 0, 0.1)
 }
 
 html, body, #root {

@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: var(--transparent-color) !important;
 }
 
 .navbar .nav-link p {
@@ -18,12 +18,21 @@
         bottom: 0;
         background: var(--primary-color);
         transition: width 0.2s;
-    }
+}
 
 .navbar .nav-link.active p {
     color: var(--accent-color);
-    /* text-decoration: underline; */
     font-weight: 700;
+}
+
+.navbar .nav-link.active p::after {
+    background: var(--accent-color);
+    /* width: 100%; */
+}
+
+.navbar .nav-link.active p:hover:after {
+    width: 100%;
+    background: var(--accent-color);
 }
 
 .navbar .nav-link p:hover:after {
