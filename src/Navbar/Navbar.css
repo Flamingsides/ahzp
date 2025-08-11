@@ -38,3 +38,31 @@
 .navbar .nav-link p:hover:after {
     width: 100%;
 }
+
+.logo {
+    max-height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.darkmode-toggler {
+    border: none;
+    border-radius: 50%;
+    background: var(--transparent-color);
+    margin: auto 5px;
+    padding: 5px;
+}
+
+.darkmode-toggler #darkmode-icon {
+    fill: var(--primary-color);
+    display: none;
+}
+
+.darkmode .darkmode-toggler #darkmode-icon {
+    display: block;
+}
+
+.darkmode .darkmode-toggler #lightmode-icon {
+    fill: var(--primary-color);
+    display: none;
+}

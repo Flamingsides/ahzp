@@ -8,7 +8,17 @@
     --primary-color: #2E3841;
     --secondary-color: #8CA7C5;
     --accent-color: #6f6f4d;
-    --transparent-color: rgba(0, 0, 0, 0.1)
+    --transparent-color: #0000001A;
+
+    --background-image: url('../assets/oil-plant-bg.jpg');
+    --background-image-dark: url('../assets/oil-plant-bg-night-upscaled.jpg');
+}
+
+.darkmode {
+    --primary-color: #b1bdc8;
+    --secondary-color: #323b45;
+    --accent-color: #cccc8e;
+    --transparent-color: #FFFFFF1A;
 }
 
 html, body, #root {
@@ -17,7 +27,11 @@ html, body, #root {
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url('../assets/oil-plant-bg.jpg');
+    color: var(--primary-color);
+
+    background-image: var(--background-image-dark);
     background-repeat: no-repeat;
     background-size: 100vw;
+
+    transition: background-color 0.4s ease, color 0.4s ease, background-image 0.4s ease;
 }
