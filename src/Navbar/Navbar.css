@@ -53,16 +53,16 @@
     padding: 5px;
 }
 
-.darkmode-toggler #darkmode-icon {
+.darkmode-toggler #lightmode-icon {
     fill: var(--primary-color);
     display: none;
 }
 
-.darkmode .darkmode-toggler #darkmode-icon {
+.darkmode .darkmode-toggler #lightmode-icon {
     display: block;
 }
 
-.darkmode .darkmode-toggler #lightmode-icon {
+.darkmode .darkmode-toggler #darkmode-icon {
     fill: var(--primary-color);
     display: none;
 }
