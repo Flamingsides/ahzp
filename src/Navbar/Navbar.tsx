@@ -2,13 +2,13 @@ import { Link, useLocation } from "react-router-dom";
 
 import "./Navbar.css";
 
+import logoDark from "../../assets/ahzp-logo-rect-simple-bgless-dark.png";
+import logoLight from "../../assets/ahzp-logo-rect-simple-bgless.png";
+
 interface Props {
   theme: string;
   toggleDarkMode: () => void;
 }
-
-const logoDark = "../../assets/ahzp-logo-rect-simple-bgless-dark.png";
-const logoLight = "../../assets/ahzp-logo-rect-simple-bgless.png";
 
 // Left aligned on the navbar
 var navbar = {
