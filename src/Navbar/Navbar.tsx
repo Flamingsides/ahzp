@@ -7,8 +7,8 @@ interface Props {
   toggleDarkMode: () => void;
 }
 
-const logoDark = "assets/ahzp-logo-rect-simple-bgless-dark.png";
-const logoLight = "assets/ahzp-logo-rect-simple-bgless.png";
+const logoDark = "../../assets/ahzp-logo-rect-simple-bgless-dark.png";
+const logoLight = "../../assets/ahzp-logo-rect-simple-bgless.png";
 
 // Left aligned on the navbar
 var navbar = {
