@@ -59,7 +59,7 @@ function App() {
     <>
       <Navbar toggleDarkMode={toggleDarkMode} theme={theme}></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home theme={theme} />} />
         <Route path="/engineering" element={<Engineering />} />
         <Route path="/architecture" element={<Architecture />} />
         <Route path="*" element={<PageNotFound />} />
