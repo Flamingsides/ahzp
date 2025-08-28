@@ -7,8 +7,10 @@
 
 :root {
     --primary-color: #2E3841;
-    --secondary-color: #8CA7C5;
+    --secondary-color: #819ec3;
     --accent-color: #6f6f4d;
+    --items-bg-color: white;
+
     --transparent-color: #0000001A;
     --transparent-light: rgba(255, 255, 255, 0.2);
 
@@ -20,6 +22,8 @@
     --primary-color: #b1bdc8;
     --secondary-color: #323b45;
     --accent-color: #cccc8e;
+    --items-bg-color: black;
+
     --transparent-color: #FFFFFF1A;
 }
 

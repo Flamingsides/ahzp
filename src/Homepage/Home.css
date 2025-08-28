@@ -6,3 +6,7 @@
     /* background-color: red; */
     display: none;
 }
+
+.homepage-cards {
+    margin: 100px auto;
+}
