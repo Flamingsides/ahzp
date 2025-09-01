@@ -10,7 +10,12 @@
     height: 400px;
 }
 
-.card-title {
+#title {
+    color: var(--items-bg-color);
+    font-family: 'Franklin Gothic Thin', 'Arial Narrow', Arial, sans-serif;
+}
+
+#desc {
     color: var(--items-bg-color);
 }
 

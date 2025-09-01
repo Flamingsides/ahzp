@@ -22,10 +22,10 @@ function Card({ theme, bgLight, bgDark, title, desc, link, linkText }: Props) {
         }}
       ></div>
       <div className="card-body">
-        <h5 id="title" className="card-title fw-light">
-          {title}
-        </h5>
-        <p className="card-text">{desc}</p>
+        {/* <h5 id="title" className="card-title fw-light"> */}
+        <h5 id="title">{title}</h5>
+        {/* <p className="card-text">{desc}</p> */}
+        <p id="desc">{desc}</p>
         <Link className="btn btn-primary" to={link}>
           {linkText}
         </Link>
