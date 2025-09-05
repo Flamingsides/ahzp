@@ -18,7 +18,7 @@ function Card({ theme, bgLight, bgDark, title, desc, link, linkText }: Props) {
       <div
         className="card-img-top"
         style={{
-          backgroundImage: theme === "dark" ? bgLight : bgDark,
+          backgroundImage: theme === "dark" ? bgDark : bgLight,
         }}
       ></div>
       <div className="card-body">

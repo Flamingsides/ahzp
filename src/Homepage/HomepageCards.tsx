@@ -5,14 +5,19 @@ interface Props {
 }
 
 function HomepageCards({ theme }: Props) {
+  window.addEventListener("scroll", (e) => {
+    if (window.scrollY >= 100)
+      document.getElementById("homepage-cards")!.style.transform = "none";
+  });
+
   return (
-    <div className="homepage-cards container">
+    <div id="homepage-cards" className="homepage-cards container">
       <div className="row">
         <div className="col">
           <Card
             theme={theme}
-            bgLight='url("/assets/oil-plant-bg-night-lights.jpg")'
-            bgDark='url("/assets/oil-plant-bg.jpg")'
+            bgLight='url("/assets/oil-plant-bg.jpg")'
+            bgDark='url("/assets/oil-plant-bg-night-lights.jpg")'
             title="Engineering"
             desc="AHZ Professionals Sdn Bhd is an emerging Engineering Software
           Applications Development, Implementation and Training resource in the
@@ -26,7 +31,7 @@ function HomepageCards({ theme }: Props) {
         <div className="col">
           <Card
             theme={theme}
-            bgLight='url("/assets/oil-plant-bg-night-lights.jpg")'
+            bgLight='url("/assets/house-bg.jpg")'
             bgDark='url("/assets/oil-plant-bg.jpg")'
             title="Architecture"
             desc="AHZP prides itself for its diversified architectural services, lead by leading professionals, in areas of interioir design, town planning, construction, house renovation, etc. We have compelted successful projects in multiple countries with clients ranging from casual to professional. We prioritise ergonomic designs factoring in the 'Human-Environment Interaction'"
